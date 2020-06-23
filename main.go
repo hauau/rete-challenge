@@ -9,7 +9,7 @@ import (
 func main() {
 	addr := ":8080"
 	logfile, logerr := os.OpenFile(
-		"file.log",
+		"logs/file.log",
 		os.O_APPEND|os.O_CREATE|os.O_WRONLY,
 		0644)
 
